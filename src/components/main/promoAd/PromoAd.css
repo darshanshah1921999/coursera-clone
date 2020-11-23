@@ -1,0 +1,173 @@
+.promoAd{
+    background: #d6edf6;
+    height: 400px;
+    padding-bottom: 25px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.half-circle{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+.half-circle-image-container{
+    position: relative;
+    width: 100px;
+    padding-bottom: 50%;
+    height: 0px;
+}
+.half-circle-image-container img{
+    max-width: 100px;
+    max-height: 50px;
+}
+.promo-img-container{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+.promostat-image-container{
+    position: relative;
+    width: 445px;
+    padding-bottom: 56.1798%;
+    height: 0px;
+}
+.promostat-image-container img{
+    max-width: 445px;
+    max-height: 250px;
+}
+.ad-text-container{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+    width: 90%;
+}
+.headline{
+    margin-top: 45px;
+    font-family: OpenSans;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
+}
+.ad-text-container p{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 35px;
+    width: 463px;
+}
+strong{
+    font-weight: bolder;
+}
+.subtitle{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cta-container{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    width: auto;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0 0 1rem;
+}
+.join-for-free-btn{
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    border-radius: 2px;
+    border: 1px solid #2073d4;
+    background: #2073d4;
+    background-image: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    width: 166px;
+    padding: 17px 23px;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.try-coursera-for-business {
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    background: #fff;
+    height: 50px;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 17px 23px;
+    width: 247px;
+    text-decoration: none;
+    border-radius: 2px;
+    position: relative;
+    z-index: 2;
+    top: 1px;
+    color: #0156b8;
+    border: 1px solid #0156b8;
+    bottom: 0;
+}
+.try-coursera-for-business:hover{
+    color:#ffffff;
+    background-color: #0156b8;
+}
+.dotted-blue-blob{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -600px;
+    z-index: 10;
+}
+.dotted-image-container{
+    position: relative;
+    width: 157px;
+    padding-bottom: 40.7643%;
+    height: 0px;
+}
+.dotted-image-container img{
+    max-width: 157px;
+    max-height: 64px;
+}
+@media screen and (max-width: 991px){
+    .promoAd{
+        min-height: 550px;
+        max-height: 600px;
+        height: 100%;
+    }
+    .half-circle{
+        margin-left: 0;
+        left: 10%;
+    }
+    .promo-img-container{
+        display: none;
+    }
+    .dotted-blue-blob{
+        margin-right: 0;
+        right: 8%;
+    }
+}
+@media screen and (max-width: 480px){
+    .cta-container{
+        border-radius: 5px;
+        width: auto;
+        margin-bottom: 10px;
+        padding: 17px 10px;
+    }
+    .join-for-free-btn{
+        border-radius: 5px;
+        width: auto;
+        margin-bottom: 10px;
+        padding: 17px 10px;
+    }
+    .try-coursera-for-business{
+        border-radius: 5px;
+        width: auto;
+        margin-bottom: 10px;
+        padding: 17px 10px;
+    }
+}
